@@ -1,0 +1,35 @@
+Reference,Component,Quantity,Nominal specification,Function,Status
+U1,LM2596T-5.0,1,Fixed 5 V buck regulator,DC conversion,Footprint/rating pending
+U2,PIC18F46Q10,1,PDIP-40 intended,Microcontroller,Pinout/footprint pending
+Q1,FQP27P06,1,P-channel MOSFET,Reverse-polarity protection,Footprint pending
+DZ,1N759A,1,12 V Zener,MOSFET gate protection,Confirm orientation and rating
+D2,SB560-T,1,Schottky diode,Buck freewheel diode,Footprint/rating pending
+D3,SMBJ6,1,USB input TVS,Transient protection,Exact orderable part pending
+L1,Inductor,1,68 uH,Buck inductor,Current/saturation pending
+R1,Resistor,1,10 kohm,MOSFET gate bias,Preliminary
+R2-R3,Resistors,2,5.1 kohm,USB-C CC pull-downs,Preliminary
+R4,Resistor,1,1 kohm,Power indicator LED,Preliminary
+R5,Resistor,1,10 kohm,MCLR pull-up,Preliminary
+R6,Resistor,1,470 ohm,MCLR series element,Review with ICSP
+R7,Resistor,1,10 kohm,User pushbutton pull-up,Preliminary
+R8,Resistor,1,1 kohm,User LED current limit,Preliminary
+C1,Capacitor,1,470 uF,DC buck input filter,Voltage/ripple pending
+C2,Capacitor,1,100 nF,DC input bypass,Preliminary
+C3,Capacitor,1,180 uF,DC buck output filter,ESR/ripple pending
+C4,Capacitor,1,100 nF,DC output bypass,Preliminary
+C5,Capacitor,1,4.7 uF,USB bulk capacitor,Preliminary
+C6,Capacitor,1,100 nF,USB bypass,Preliminary
+C7,Capacitor,1,10 uF,Main supply bulk capacitor,Preliminary
+C8,Capacitor,1,100 nF,Main supply bypass,Preliminary
+C9,Capacitor,1,100 nF,MCLR/reset capacitor,Review ICSP compatibility
+FU2,Fuse,1,1 A,USB input protection,Rating/technology pending
+J1,DC jack,1,7-12 V input,External power,Footprint pending
+J2,USB4085-GF-A,1,USB-C receptacle,USB input,Footprint pending
+JP1,Power selector,1,DC / OFF / USB,Power-source selection,Real switch TBD
+J3-J6,Headers,4,1x10 2.54 mm,PORTA to PORTD breakout,Footprints pending
+J7,Header,1,1x5 2.54 mm,PORTE breakout,Footprint pending
+J8,Header,1,1x4 2.54 mm,Power breakout,Footprint pending
+J9,Header,1,1x6 2.54 mm,ICSP connector,Footprint pending
+D4-D5,LEDs,2,User and supply indicators,Status lights,Preliminary
+SW_RESET,Pushbutton,1,Normally open,MCLR reset,Footprint pending
+SW_USER,Pushbutton,1,Normally open,User input,Footprint pending
