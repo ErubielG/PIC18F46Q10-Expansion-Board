@@ -1,0 +1,15 @@
+# Proteus temporary and local state files
+*.pdsprj.local
+*.pdsprj.local~
+*.pdsbak
+*.bak
+*.tmp
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+
+# Keep actual design sources (.pdsprj/.dsn/.lyt) and PDF outputs under version control.
