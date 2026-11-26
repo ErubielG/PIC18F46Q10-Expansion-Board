@@ -35,7 +35,7 @@ Engineering decisions, review feedback, test results, and failures will be docum
 
 - [x] Initial architecture and four-sheet schematic in Proteus 8.17.
 - [x] Revision v1.1 prepared and academically reviewed.
-- [ ] Upload the original `.pdsprj` and four-page PDF files to this repository.
+- [x] Upload the original `.pdsprj` design files and four-page schematic PDF to this repository.
 - [ ] Record ERC for the precise revision being published.
 - [ ] Verify MCLR/VPP, PGC/PGD and reset network with the intended programmer.
 - [ ] Verify physical components, packages and netlist in ARES.
@@ -59,7 +59,13 @@ In the attached v1.1 design, **C9 = 100 nF belongs to the MCLR/reset network**, 
 
 ## Source files
 
-**Pending upload:** the original Proteus v1.1 project and the four-page schematic PDF are preserved locally but are not yet included in this online repository. This section will link to the exact uploaded files when available.
+Published source artifacts:
+
+- [Proteus v1.1 project](TARJETA%20DE%20EXPANSION%20PIC%201.1.pdsprj)
+- [Earlier Proteus project](TARJETA%20DE%20EXPANSION%20PIC%20.pdsprj)
+- [Four-page schematic PDF](TARJETA%20ENTRENADORA%20PIC%2018F46Q10%20v1.1%20%282%29.PDF)
+
+These are design documents, **not** evidence of a routed, fabricated or electrically verified PCB. ERC and physical validation remain pending.
 
 ## License
 
